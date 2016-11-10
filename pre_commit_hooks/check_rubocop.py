@@ -12,7 +12,7 @@ def check_rubocop(argv=None):
 
     retval = 0
 
-    command = ["rubocop-git"] + args.filenames
+    command = ["rubocop-git"]
 
     try:
         retval = subprocess.check_call(command, shell=False)
