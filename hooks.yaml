@@ -1,6 +1,6 @@
--   id: check-rubocop-git
+-   id: check-rubocop
     name: Check Rubocop
-    description: This hook checks ruby files for syntax and style using Rubocop on changed files only
-    entry: check-rubocop-git
+    description: This hook checks ruby files for syntax and style
+    entry: check-rubocop
     language: python
     files: \.rb$
